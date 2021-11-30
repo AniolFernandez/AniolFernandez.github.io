@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Upload · FSDP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/main.js" type="text/javascript"> </script>
+        <script src="js/manage.js" type="text/javascript"> </script>
+    </head>
+    <body onload="loginRestricted()">
+        <header>
+            <h1 class="clickable" onClick="href('index.html')">Free Software Download Page</h1>
+            <h4 class="fesClick" id="login" onClick="href('login.html')">LOGIN</h4>
+        </header>
+        <nav>
+            <h3 class="fesClick" onClick="href('products.html')">PRODUCTS</h3>
+            <h3 class="fesClick" onClick="href('categories.html')">CATEGORIES</h3>
+            <h3 class="fesClick" onClick="href('browser.html')" id="brows">BROWSER</h3>
+            <h3 class="fesClick" onClick="href('about.html')">ABOUT</h3>
+        </nav>
+        <div id="navegacio">
+            <a href="index.html">Welcome</a> &gt; <a href="manage.html">Manage</a> &gt; <a href="upload.html">Upload</a>
+        </div>
+        <div class="loginContainer" style="margin-bottom: 100px;">
+            <div class="login" style="width: 60%;">
+                <h1>Upload a product</h1>
+                <em>* Marks required fields</em>
+                <h2>Product info</h2>
+                <label>
+                    Product name*:
+                </label>
+                <input type="text" id="product" placeholder="Product name"/>
+                <label>
+                    Product category*:
+                </label>
+                <input type="text" id="category" placeholder="Product category"/>
+                <label>
+                    Product description*:
+                </label>
+                <textarea id="description" style="min-height: 200px;" placeholder="Lorem ipsum dolor sit amet consectetur adipiscing elit vestibulum a interdum mauris ac blandit nibh in tincidunt euismod massa vestibulum ultrices fringilla turpis vel pharetra augue maximus vitae duis id quam ullamcorper mattis dolor sit amet fermentum ligula sed finibus aliquet ante vitae malesuada duis non nulla quis magna elementum viverra donec quis sapien diam ut ac porta nisl donec molestie faucibus mauris sed fringilla proin ut ornare orci sed aliquam pulvinar lorem et pulvinar aliquam neque ligula fringilla et porttitor tempor imperdiet sed ex curabitur ullamcorper mauris ante vitae dignissim orci efficitur a etiam mollis elit lorem non aliquam mi cursus sed mauris eu erat vel augue cursus elementum curabitur ex dui"></textarea>
+                <label>
+                    Product logo:
+                </label>
+                <input type="text" id="logo" placeholder="URL of the logo or blank to set a placeholder"/>
+                <label>
+                    Slide 1:
+                </label>
+                <input type="text" id="slide1" placeholder="URL of the slide1 or blank to set a placeholder"/>
+                <label>
+                    Slide 2:
+                </label>
+                <input type="text" id="slide2" placeholder="URL of the slide2 or blank to set a placeholder"/>
+                <label>
+                    Slide 3:
+                </label>
+                <input type="text" id="slide3" placeholder="URL of the slide3 or blank to set a placeholder"/>
+                <h2>Requirements</h2>
+                <label>
+                    Required OS*:
+                </label>
+                <input type="text" id="os" placeholder="Any"/>
+                <label>
+                    Required CPU*:
+                </label>
+                <input type="text" id="cpu" placeholder="Intel Pentium"/>
+                <label>
+                    Required RAM*:
+                </label>
+                <input type="text" id="ram" placeholder="512 MB"/>
+                <label>
+                    Required Storage*:
+                </label>
+                <input type="text" id="storage" placeholder="1GB"/>
+                <label>
+                    Required Graphics*:
+                </label>
+                <input type="text" id="gpu" placeholder="DirectX10 compatible"/>
+                <h2>Installers</h2>
+                <em>Do not put anything here. It's just an example.</em>
+                <label>
+                    Windows:
+                </label>
+                <input type="file" id="win" name="filename">
+                <label>
+                    MAC:
+                </label>
+                <input type="file" id="mac" name="filename">
+                <label>
+                    Linux:
+                </label>
+                <input type="file" id="lin" name="filename">
+                <button class="fesClick" onclick="changeList()">UPLOAD</button>
+            </div>
+            
+        </div>
+        <footer>
+            <p><em>By Aniol Fernández Cano - University of Girona - 2021</em></p>
+        </footer>
+    </body>
+</html>

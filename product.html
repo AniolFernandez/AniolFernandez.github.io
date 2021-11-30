@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Product · FSDP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/main.js" type="text/javascript"> </script>
+        <script src="js/product.js" type="text/javascript"> </script>
+    </head>
+    <body onLoad="loadProduct()">
+        <header>
+            <h1 class="clickable" onClick="href('index.html')">Free Software Download Page</h1>
+            <h4 class="fesClick" id="login" onClick="href('login.html')">LOGIN</h4>
+        </header>
+        <nav id="nav">
+            <h3 class="fesClick seleccionat" onClick="href('products.html')" id="prods">PRODUCTS</h3>
+            <h3 class="fesClick" onClick="href('categories.html')" id="cats">CATEGORIES</h3>
+            <h3 class="fesClick" onClick="href('browser.html')" id="brows">BROWSER</h3>
+            <h3 class="fesClick" onClick="href('about.html')">ABOUT</h3>
+        </nav>
+        <div id="navegacio">
+            <a href="index.html">Welcome</a> &gt; <a href="products.html">Products</a> &gt; <a href="product.html" id="navProd">Product</a>
+        </div>
+        <div class="infoProducte">
+            <div id="producteDescripcio">
+                <h1 id="titolProducte">Products list</h1>
+                <p id="description"></p>
+            </div>
+            <img src="img/software_placeholder.svg" id="softImg" alt="Logo"/>
+        </div>
+        <div class="links">
+            <div class="download">
+                <button class="fesClick" onclick="download('Windows')">Download Windows <img src="img/windows.svg" alt="Windows Download"/></button>
+                <button class="fesClick" onclick="download('Mac')">Download MAC <img src="img/mac.svg" alt="MAC Download"/></button>
+                <button class="fesClick" onclick="download('Linux')">Download Linux <img src="img/linux.svg" alt="Linux Download"/></button>
+                <button class="fesClick" onclick="crearPopup('Thank you!','A report has been sent.','&#x2713;','#B3F58E')" id="report" style="display: none;">Report Software <img src="img/report.svg" alt="Report Software"/></button>
+            </div>
+            <div class="license">
+                <button class="fesClick" id="licButton">License notes</button>
+            </div>
+        </div>
+        <div class="requirements">
+            <table>
+                <tr>
+                    <th colspan="2">REQUIREMENTS</th>
+                </tr>
+                <tr>
+                    <td><b>Operating System</b></td>
+                    <td id="os">???????</td>
+                </tr>
+                <tr>
+                    <td><b>CPU</b></td>
+                    <td id="cpu">???????</td>
+                </tr>
+                <tr>
+                    <td><b>RAM</b></td>
+                    <td id="ram">???????</td>
+                </tr>
+                <tr>
+                    <td><b>Storage</b></td>
+                    <td id="rom">???????</td>
+                </tr>
+                <tr>
+                    <td><b>Graphic Card</b></td>
+                    <td id="gpu">???????</td>
+                </tr>
+            </table>
+        </div>
+
+        <h1 style="margin-left:3%">Images of the software</h1>
+        <div id="imgs" class="slideshow-container">
+
+
+            
+            
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div id="dots" style="text-align:center">
+
+            </div>       
+        
+        <footer>
+            <p><em>By Aniol Fernández Cano - University of Girona - 2021</em></p>
+        </footer>
+    </body>
+</html>

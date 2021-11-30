@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About · FSDP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/main.js" type="text/javascript"> </script>
+        <script src="js/about.js" type="text/javascript"> </script>
+    </head>
+    <body onload="loadAbout()">
+        <header>
+            <h1 class="clickable" onClick="href('index.html')">Free Software Download Page</h1>
+            <h4 class="fesClick" id="login" onClick="href('login.html')">LOGIN</h4>
+        </header>
+        <nav>
+            <h3 class="fesClick" onClick="href('products.html')">PRODUCTS</h3>
+            <h3 class="fesClick" onClick="href('categories.html')">CATEGORIES</h3>
+            <h3 class="fesClick" onClick="href('browser.html')" id="brows">BROWSER</h3>
+            <h3 class="fesClick seleccionat" onClick="href('about.html')">ABOUT</h3>
+        </nav>
+        <div class="about" id="contenidor">
+            <div><p>This webpage was made by Aniol Fernàndez Cano, all its code (html, css & javascript) is handmade without the use of any third party templates or libraries.</p><img src="img/about/mainPage.png" alt="Main page"/></div>
+            <div><img src="img/about/login.gif" alt="Login"/><p>Remember to log-in in order to unlock all capabilities of the webpage.<br>You can create a new account or use the user <strong>admin</strong> with password <strong>admin</strong>.</p></div>
+            <div><p>I've tried to cover my lack of graphic designer skills with fancy animations and a good polished finish.</p><img src="img/about/animations.gif" alt="Animations example"/></div>
+            <div><img src="img/about/productList.png" alt="productList"/><p>The product list can be dynamically modified if a user logs in and upload new software. All changes are reflected into products using local storage.</p></div>
+            <div><p>All pop-ups and animations are handmade using css & javascript.</p><img src="img/about/popUps.png" alt="pop-ups"/></div>
+            <div><img src="img/about/browser.png" alt="Browser"/><p>The browser works by searching by a given set of keywords, displaying a list of products where a match as been made.</p></div>
+            <div><p>The list of products of a search has the matching keywords marked to give to the user the feeling of a good result.</p><img src="img/about/browserResult.png" alt="Browser Result"/></div>
+            <div><img src="img/about/categories.png" alt="Categories"/><p>The list of categories is dynamically generated. If you upload a new software with a new category, it will automatically appear on categories window.</p></div>
+            <div><p>When you upload a new product you can add its logo or slide images with an URL of an actual image posted in internet.</p><img src="img/about/Upload.png" alt="Upload"/></div>
+        </div>
+        <footer>
+            <p><em>By Aniol Fernández Cano - University of Girona - 2021</em></p>
+        </footer>
+    </body>
+</html>
