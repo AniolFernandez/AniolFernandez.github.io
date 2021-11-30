@@ -1,0 +1,11 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="646" width="928" y="-10.5" x="-24" stroke="#000" fill="#DDDDDD"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Roboto Mono'" font-size="40" id="svg_2" y="571.5" x="152" stroke-width="0" stroke="#000" fill="#000000">Software Example Image</text>
+  <text transform="matrix(0.947737 0 0 1 -10.6445 0)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Archivo'" font-size="40" id="svg_3" y="85.5" x="314.94588" fill="#BBBBBB">Placeholder 5</text>
+  <line stroke="#000" id="svg_4" y2="602.5" x2="804" y1="-9.49998" x1="-12.00002" fill="none"/>
+  <line stroke="#000" id="svg_5" y2="626.5" x2="-35" y1="-19.49998" x1="824.99996" fill="none"/>
+ </g>
+</svg>
